@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css.css">
+    <title>Do List</title>
+  </head>
+  <body>
+
+    <div class="list">
+      <h1 class="content"><%=day%></h1>
+    <% for(var i=0;i<data.length;i++) {%>
+      <input class="content" type="checkbox">
+        <p class="content" ><%=data[i]%></p>
+        <br>
+        <%}%>
+
+      <div class="btn content">
+        <form class="" action="/" method="post">
+          <input type="text" name="input" value="" placeholder="Enter your list">
+          <button type="submit" name="button"></button>
+        </form>
+</div>
+
+      </div>
+<%-include('footer')-%>
+  </body>
+</html>

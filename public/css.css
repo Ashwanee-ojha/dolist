@@ -1,1 +1,47 @@
-The system cannot find the file specified.
+html {
+  background-color: #E4E9FD;
+  background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
+  min-height: 1000px;
+  font-family: 'helvetica neue';
+}
+
+input[type="checkbox"]{
+  margin:20px;
+  display:inline-block;
+}
+p{
+
+  display:inline;
+  text-align: center;
+  margin-left: 2px;
+}
+.content{
+
+}
+.list
+{
+  max-width:400px;
+  border: solid 2px white;
+  margin: 5px auto;
+  padding: 5% auto;
+}
+input[type="checkbox"]:checked + li{
+  text-decoration: line-through;
+}
+button {
+  min-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: red;
+  color: #fff;
+  font-size: 30px;
+  padding-bottom: 6px;
+  border-width: 0;
+}
+button {
+  min-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+}
